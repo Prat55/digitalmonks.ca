@@ -5183,7 +5183,7 @@ Section Title
   font-weight: 600;
 }
 
-.features-section-five .image-column .rounded-text img {
+.features-section-five .image-column .rounded-text #round {
   -webkit-animation: fa-spin 30s infinite linear;
   animation: fa-spin 30s infinite linear;
 }
@@ -7753,6 +7753,15 @@ Section Title
   animation: fa-spin 30s infinite linear;
 }
 
+#why_logo{
+  width: 300px;
+}
+
+@media only screen and (max-width: 420px){
+  #why_logo{
+    width: 220px;
+  }
+}
 /***
 
 ====================================================================
