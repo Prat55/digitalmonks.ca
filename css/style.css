@@ -2778,7 +2778,7 @@ Main Header
 
 @media only screen and (min-width: 1460px) and (max-width: 1489px) {
   .main-header .logo {
-    width: 470px;
+    width: 400px;
     position: relative;
     display: block;
   }
@@ -2786,7 +2786,7 @@ Main Header
 
 @media only screen and (min-width: 1430px) and (max-width: 1460px) {
   .main-header .logo {
-    width: 430px;
+    width: 380px;
     position: relative;
     display: block;
   }
@@ -2806,7 +2806,7 @@ Main Header
 
 @media only screen and (min-width: 1112px) and (max-width: 1400px) {
   .main-header .logo {
-    width: 430px;
+    width: 330px;
     position: relative;
     display: block;
   }
@@ -2819,7 +2819,7 @@ Main Header
 
 @media only screen and (min-width: 1064px) and (max-width: 1111px) {
   .main-header .logo {
-    width: 350px;
+    width: 300px;
     position: relative;
     display: block;
   }
@@ -13038,7 +13038,7 @@ Sidebar
   margin-bottom: 30px;
 }
 
-#footer-logo{
+#footer-logo {
   width: 250px;
 }
 
