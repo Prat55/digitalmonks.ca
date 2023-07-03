@@ -6812,8 +6812,8 @@ Section Title
 
 .testimonial-block .content-box .text {
   position: relative;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 5px;
+  line-height: -50px !important;
 }
 
 .testimonial-block .info-box {
