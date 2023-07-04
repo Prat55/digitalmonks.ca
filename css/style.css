@@ -13199,6 +13199,10 @@ Sidebar
   position: relative;
 }
 
+.newsletter-widget img {
+  width: 180px;
+}
+
 .newsletter-widget .text {
   margin-bottom: 10px;
 }
