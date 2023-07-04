@@ -5220,7 +5220,7 @@ Section Title
   left: 0;
   bottom: 0;
   height: 100%;
-  width: 35%;
+  width: 0%;
   background-image: url(../images/icons/gradient.jpg);
   content: "";
 }
