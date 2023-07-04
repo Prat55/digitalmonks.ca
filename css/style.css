@@ -944,7 +944,7 @@ Scroll To Top style
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 12px 0;
+  padding: 12px 40px;
 }
 
 .list-style-one li {
@@ -2812,7 +2812,7 @@ Main Header
   }
 
   .main-header .logo img {
-    margin-top: -8px;
+    margin-top: -2px;
   }
 }
 
@@ -3246,7 +3246,7 @@ Header Style One
 }
 
 .header-style-one .header-top {
-  margin-left: 260px;
+  margin-left: 0px;
 }
 
 @media (max-width: 1399.98px) {
