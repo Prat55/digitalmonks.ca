@@ -2919,7 +2919,7 @@ Main Header
 .main-menu .navigation>li:before {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 52%;
   margin-top: 10px;
   height: 1px;
   width: 0%;
@@ -2933,6 +2933,8 @@ Main Header
 .main-menu .navigation>li:last-child {
   margin-right: 0;
 }
+
+
 
 .main-menu .navigation>li:hover:before,
 .main-menu .navigation>li.current:before {
@@ -3191,6 +3193,10 @@ Main Header
   transition: all 300ms ease;
 }
 
+.link-spacing{
+  padding-top: 28px!important;
+}
+
 .main-header .ui-btn:hover {
   color: var(--theme-color1);
 }
@@ -3198,13 +3204,13 @@ Main Header
 .main-header .info-btn {
   position: relative;
   font-size: 16px;
-  padding-left: 44px;
+  padding:0 20px;
   color: #ffffff;
   text-align: left;
   font-weight: 500;
   white-space: nowrap;
   line-height: 20px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .main-header .info-btn small {
@@ -3533,13 +3539,13 @@ Sticky Header
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .sticky-header .main-menu .navigation>li {
   margin: 0;
-  margin-left: 60px;
-  padding: 20px 0;
+  margin-left: 30px;
+  padding: 31px 0;
 }
 
 .sticky-header .main-menu .navigation>li>a {
@@ -13260,6 +13266,25 @@ Sidebar
   text-align: center;
 }
 
+
+.b-btn{
+  background-color: transparent;
+}
+.book-btn{
+  background-color: rgb(248 196 58);
+  border-radius: 55px;
+  height: 45px; 
+  width: 100%;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+
+
 .footer-bottom .copyright-text {
   position: relative;
   font-size: 15px;
@@ -13277,4 +13302,11 @@ Sidebar
 
 .footer-bottom .copyright-text a:hover {
   color: #ffffff;
+}
+
+
+@media only screen and (max-width: 988px){
+  .sticky-header .inner-container {
+    justify-content: space-between;
+}
 }
