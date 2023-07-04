@@ -3667,6 +3667,7 @@ Sticky Header
 
 .mobile-menu .nav-logo img {
   max-height: 40px;
+  margin-left: -15px;
 }
 
 .mobile-menu .menu-box {
@@ -5205,6 +5206,24 @@ Section Title
 .about-section {
   position: relative;
   padding: 100px 0 50px;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 991px) {
+  #about_section{
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width:720px) {
+  #about_section{
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  #about_section{
+    padding-top: 0px;
+  }
 }
 
 .about-section:before {
@@ -11463,7 +11482,7 @@ Page Title
   position: relative;
   display: block;
   padding: 57px 55px 50px;
-  margin-top: 30px;
+  margin-top: 0px;
   text-align: center;
   z-index: 1;
   background-color: var(--theme-color2);
