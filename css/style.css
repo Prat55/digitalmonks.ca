@@ -3193,8 +3193,8 @@ Main Header
   transition: all 300ms ease;
 }
 
-.link-spacing{
-  padding-top: 28px!important;
+.link-spacing {
+  padding-top: 28px !important;
 }
 
 .main-header .ui-btn:hover {
@@ -3204,7 +3204,7 @@ Main Header
 .main-header .info-btn {
   position: relative;
   font-size: 16px;
-  padding:0 20px;
+  padding: 0 20px;
   color: #ffffff;
   text-align: left;
   font-weight: 500;
@@ -13266,21 +13266,20 @@ Sidebar
   text-align: center;
 }
 
-
-.main-header .b-btn{
+.main-header .b-btn {
   background-color: transparent;
   margin-left: 60px;
 }
 
-.sticky-header .b-btn{
+.sticky-header .b-btn {
   background-color: transparent;
   margin-left: 190px;
 }
 
-.book-btn{
+.book-btn {
   background-color: rgb(248 196 58);
   border-radius: 55px;
-  height: 45px; 
+  height: 45px;
   width: 100%;
   margin-right: 20px;
   margin-top: 20px;
@@ -13312,8 +13311,8 @@ Sidebar
 }
 
 
-@media only screen and (max-width: 988px){
+@media only screen and (max-width: 988px) {
   .sticky-header .inner-container {
     justify-content: space-between;
-}
+  }
 }
