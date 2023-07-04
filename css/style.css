@@ -13267,9 +13267,16 @@ Sidebar
 }
 
 
-.b-btn{
+.main-header .b-btn{
   background-color: transparent;
+  margin-left: 60px;
 }
+
+.sticky-header .b-btn{
+  background-color: transparent;
+  margin-left: 190px;
+}
+
 .book-btn{
   background-color: rgb(248 196 58);
   border-radius: 55px;
