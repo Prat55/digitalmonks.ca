@@ -3944,7 +3944,7 @@ Section Title
 
 .sec-title h2 {
   position: relative;
-  font-size: var(--sec-title-font-size);
+  font-size: 35px;
   color: var(--sec-title-color);
   font-family: var(--sec-title-font-family);
   font-weight: var(--sec-title-font-weight);
@@ -3976,6 +3976,7 @@ Section Title
   transform: skew(-15deg);
   z-index: -1;
   content: "";
+  display: none;
 }
 
 @media (max-width: 575.98px) {
@@ -5301,11 +5302,58 @@ Section Title
   border-radius: 35px;
 }
 
+.btn-bottom {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .about-section .content-column .other-info .theme-btn {
+    left: 25%;
+    width: 50%;
+  }
+
+  .btn-bottom {
+    font-size: 0.70rem;
+    margin-top: -20px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .about-section .content-column .other-info .theme-btn {
     position: relative;
     margin-top: 30px;
     top: 0;
+    width: 50%;
+    left: 25%;
+  }
+
+  .about-section .content-column .other-info .theme-btn .btn-title {
+    font-size: 1rem !important;
+  }
+
+  .btn-bottom {
+    font-size: 0.70rem;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section .content-column .other-info .theme-btn {
+    position: relative;
+    margin-top: 30px;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .about-section .content-column .other-info .theme-btn .btn-title {
+    font-size: 1rem !important;
+  }
+
+  .btn-bottom {
+    font-size: 0.60rem;
+    margin-top: -20px;
   }
 }
 
@@ -5460,13 +5508,15 @@ Section Title
   font-weight: 600;
   line-height: 1em;
   color: var(--theme-color2);
+  margin-left: 20px;
 }
 
 .about-section .image-column .exp-box .text {
-  font-size: 15px;
+  font-size: 25px;
   color: var(--theme-color2);
   line-height: 1em;
   font-weight: 600;
+  margin-left: -11px;
 }
 
 /*** 
@@ -11480,7 +11530,7 @@ Page Title
   display: block;
 }
 
-#project-block{
+#project-block {
   margin-top: -50px;
 }
 
