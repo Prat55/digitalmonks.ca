@@ -5209,19 +5209,19 @@ Section Title
 }
 
 @media only screen and (min-width: 720px) and (max-width: 991px) {
-  #about_section{
+  #about_section {
     padding-top: 20px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width:720px) {
-  #about_section{
+  #about_section {
     padding-top: 20px;
   }
 }
 
 @media only screen and (max-width:480px) {
-  #about_section{
+  #about_section {
     padding-top: 0px;
   }
 }
@@ -6372,7 +6372,7 @@ Section Title
 ***/
 .faqs-section {
   position: relative;
-  padding: 120px 0 70px;
+  padding: 70px 0 70px;
 }
 
 .faqs-section .faq-column {
@@ -6605,18 +6605,35 @@ Section Title
   padding: 0px 40px 25px;
 }
 
+.accordion-box .block .acc-content .content .text{
+  text-align: justify;
+}
+
+#text1 {
+  line-height: -20px;
+  text-align: justify;
+}
+
+#text2{
+  line-height: 25px;
+  text-align: justify;
+}
+
 #test_text {
   line-height: 18px;
   font-size: 5px;
+  text-align: justify;
 }
 
 #test_text1 {
   line-height: 26px;
+  text-align: justify;
 }
 
 #test_text2 {
   line-height: 20px;
   font-size: 5px;
+  text-align: justify;
 }
 
 @media (max-width: 575.98px) {
@@ -7242,7 +7259,7 @@ Section Title
 ***/
 .team-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 50px 0 90px;
   overflow: hidden;
 }
 
@@ -8105,7 +8122,7 @@ Section Title
 ***/
 .news-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 60px 0 60px;
   z-index: 3;
 }
 
@@ -11587,7 +11604,7 @@ Page Title
 }
 
 #project-block {
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .project_head {

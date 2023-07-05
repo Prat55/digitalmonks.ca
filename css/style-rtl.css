@@ -6814,6 +6814,7 @@ Section Title
   position: relative;
   font-size: 5px;
   line-height: -50px !important;
+  /* text-align: justify; */
 }
 
 .testimonial-block .info-box {

@@ -208,10 +208,6 @@ body,
   color: #bdbdbd;
 }
 
-.text1{
-  line-height: -20px;
-}
-
 .service-block .inner-box {
   border-color: var(--dark-color1);
 }
