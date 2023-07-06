@@ -178,6 +178,7 @@ body,
 
 .blockquote-one {
   background-color: #323232;
+  text-align: justify;
 }
 
 .about-section .content-column .info-btn i {
@@ -258,6 +259,7 @@ body,
 
 .blockquote-one {
   color: #8d8d8d;
+  text-align: justify;
 }
 
 .sticky-header .main-menu .navigation > li > a,

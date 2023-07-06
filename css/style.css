@@ -11387,6 +11387,14 @@ Page Title
   color: var(--text-color-bg-theme-color2);
 }
 
+.services-details__content p {
+  text-align: justify;
+}
+
+#blockquote {
+  text-align: justify;
+}
+
 .service-list li {
   position: relative;
   display: block;
