@@ -862,6 +862,18 @@ li {
   transition: none;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+  .preloader:after {
+    left: 50%;
+    top: 20%;
+  }
+
+  .preloader:before {
+    top: 30%;
+    width: 100%;
+  }
+}
+
 /*=======================
 Scroll To Top style
 =======================*/
