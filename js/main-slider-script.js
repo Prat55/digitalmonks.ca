@@ -12,7 +12,7 @@ tpj(document).ready(function () {
         sliderLayout: "auto",
         autoplay: true,
         dottedOverlay: "on",
-        delay: 5000,
+        delay: 10000,
         navigation: {
           keyboardNavigation: "off",
           keyboard_direction: "horizontal",
