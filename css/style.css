@@ -3555,8 +3555,12 @@ Sticky Header
 
 .sticky-header .main-menu .navigation>li {
   margin: 0;
-  margin-left: 30px;
+  margin-left: 25px;
   padding: 31px 0;
+}
+
+html {
+  scroll-padding-top: 80px;
 }
 
 .sticky-header .main-menu .navigation>li>a {
@@ -4317,6 +4321,10 @@ Section Title
   .banner-carousel .owl-nav {
     display: none;
   }
+}
+
+.banner-text {
+  font-size: 80px !important;
 }
 
 /***
@@ -5520,7 +5528,7 @@ Section Title
   position: absolute;
   left: -80px;
   top: 90px;
-  padding: 40px 40px 60px;
+  padding: 40px 25px 60px;
   background-image: url(../images/icons/shape2.png);
   height: 170px;
   width: 303px;
@@ -5564,7 +5572,7 @@ Section Title
   color: var(--theme-color2);
   line-height: 1em;
   font-weight: 600;
-  margin-left: -11px;
+  margin-left: -9px;
 }
 
 /*** 
@@ -7278,8 +7286,8 @@ Section Title
 ***/
 .team-section {
   position: relative;
-  padding: 50px 0 90px;
   overflow: hidden;
+  margin-top: -30px !important;
 }
 
 .team-block-two {
