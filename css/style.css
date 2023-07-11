@@ -3336,7 +3336,7 @@ Header Style One
 
 @media only screen and (max-width: 1699px) {
   .header-style-one .main-box .main-menu .navigation>li {
-    margin-right: 45px;
+    margin-right: 20px;
   }
 
   .header-style-one .main-box .main-menu .navigation>li:last-child {
@@ -3444,7 +3444,7 @@ Header Style One
 
 @media only screen and (max-width: 1699px) {
   .header-style-two .main-box .main-menu .navigation>li {
-    margin-right: 50px;
+    margin-right: 20px;
   }
 
   .header-style-two .main-box .main-menu .navigation>li:last-child {
@@ -5232,7 +5232,7 @@ Section Title
 ***/
 .about-section {
   position: relative;
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
 }
 
 @media only screen and (min-width: 720px) and (max-width: 991px) {
@@ -8741,6 +8741,29 @@ Section Title
 
 .pricing-block.style-two:hover {
   margin-left: 0;
+}
+
+.pricing-btn {
+  margin-top: 10px;
+  background-color: #f8c43a;
+  padding: 10px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.pricing-btn:hover {
+  background-color: #191825;
+  color: #fff;
+}
+
+#price-note {
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 /***
