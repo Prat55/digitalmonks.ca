@@ -4327,6 +4327,17 @@ Section Title
   font-size: 80px !important;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+  .banner-text {
+    font-size: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .banner-text {
+    font-size: 36px !important;
+  }
+}
 /***
 
 ====================================================================
@@ -4417,7 +4428,7 @@ Section Title
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   width: 100%;
-  height: 100%;
+  height: 471px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -8624,7 +8635,7 @@ Section Title
   text-align: center;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  max-width: 370px;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -13385,6 +13396,18 @@ Sidebar
   position: relative;
   margin-top: 10px;
   width: 100%;
+}
+
+/** Footer btn */
+.footer-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #fdc009;
+  border-radius: 45px;
+}
+
+.footer-btn-bottom{
+  color: #646578;
 }
 
 /*=== Footer Bottom ===*/
