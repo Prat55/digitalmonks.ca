@@ -3560,7 +3560,7 @@ Sticky Header
 }
 
 html {
-  scroll-padding-top: 80px;
+  scroll-padding-top: 60px;
 }
 
 .sticky-header .main-menu .navigation>li>a {
@@ -4338,6 +4338,7 @@ Section Title
     font-size: 36px !important;
   }
 }
+
 /***
 
 ====================================================================
@@ -7476,6 +7477,7 @@ Section Title
 ***/
 .contact-section {
   position: relative;
+  padding-bottom: 20px !important;
 }
 
 .contact-section .anim-icons {
@@ -8517,6 +8519,12 @@ Section Title
   transition: all 0.3s ease;
 }
 
+@media only screen and (max-width: 480px) {
+  .clients-section {
+    display: none;
+  }
+}
+
 /***
 
 ==================================================================
@@ -8772,9 +8780,99 @@ Section Title
 }
 
 #price-note {
-  color: #ff0000;
+  color: #f2e41f;
   font-size: 1rem;
   font-weight: 300;
+}
+
+@media only screen and (min-width: 1400px) {
+  .f1 {
+    padding-bottom: 59px !important;
+  }
+
+  .f2 {
+    padding-bottom: 33px !important;
+  }
+
+  .f3 {
+    padding-bottom: 60px !important;
+  }
+
+  .f4 {
+    padding-bottom: 61px !important;
+  }
+
+  .f5 {
+    padding-bottom: 36px !important;
+  }
+
+  .f8 {
+    padding-bottom: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .f1 {
+    padding-bottom: 59px !important;
+  }
+
+  .f2 {
+    padding-bottom: 33px !important;
+  }
+
+  .f3 {
+    padding-bottom: 60px !important;
+  }
+
+  .f4 {
+    padding-bottom: 61px !important;
+  }
+
+  .f5 {
+    padding-bottom: 36px !important;
+  }
+
+  .f6 {
+    padding-bottom: 45.5px;
+  }
+
+  .f8 {
+    padding-bottom: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .f1 {
+    padding-bottom: 59px !important;
+  }
+
+  .f2 {
+    padding-bottom: 33px !important;
+  }
+
+  .f3 {
+    padding-bottom: 9px !important;
+  }
+
+  .f4 {
+    padding-bottom: 140px !important;
+  }
+
+  .f5 {
+    padding-bottom: 88px !important;
+  }
+
+  .f6 {
+    padding-bottom: 19px;
+  }
+
+  .f7 {
+    padding-bottom: 0px;
+  }
+
+  .f8 {
+    padding-bottom: 85px !important;
+  }
 }
 
 /***
@@ -13406,7 +13504,7 @@ Sidebar
   border-radius: 45px;
 }
 
-.footer-btn-bottom{
+.footer-btn-bottom {
   color: #646578;
 }
 
