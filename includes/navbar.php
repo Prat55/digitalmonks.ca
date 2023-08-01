@@ -56,15 +56,12 @@
                   <li class="link-spacing <?= $page == 'index.php'? "current":"" ?>">
                     <a href="index.php">Home</a>
                   </li>
-
                   <li class="link-spacing <?= $page == 'services.php'? 'current':'' ?>">
                     <a href="services.php">Services</a>
                   </li>
-
                   <li class="link-spacing <?= $page == 'about.php'? 'current':'' ?>">
                     <a href="about.php">About Us</a>
                   </li>
-
                   <li class="link-spacing">
                     <a href="index.php#portfolio">Portfolio</a>
                   </li>
